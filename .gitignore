@@ -1,0 +1,44 @@
+# =====================
+# Python / Jupyter
+# =====================
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# =====================
+# Raw Reddit data (DO NOT UPLOAD)
+# =====================
+ip_posts.*
+ip_comments.*
+
+# =====================
+# Processed datasets (reproducible)
+# =====================
+*.csv
+*.jsonl
+
+# =====================
+# Models
+# =====================
+*.pkl
+
+# =====================
+# Generated outputs
+# =====================
+wordclouds_*/
+topic_sizes_*/
+configurations_tests_*/
+results_*/
+comments_examples_*/
+
+# =====================
+# Local config / secrets
+# =====================
+.env
+config_local.py
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
